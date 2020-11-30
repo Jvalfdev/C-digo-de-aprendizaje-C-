@@ -1,6 +1,6 @@
 
 #include <iostream> //Librería estandar para operaciones de entrada y salida
-#include <iomanip> // Manipulador de datos, incluido para usar 'setprecision
+#include <iomanip> // Manipulador de datos, incluido para usar 'setprecision'
 
 using namespace std;
 
