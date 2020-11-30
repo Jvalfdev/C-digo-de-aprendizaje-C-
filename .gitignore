@@ -1,5 +1,8 @@
 .vscode/launch.json
 .vscode/tasks.json
 edad.exe
-primercodigo.exe
 suma.exe
+primercodigo.exe
+calculadora.exe
+.vscode/settings.json
+.gitignore
