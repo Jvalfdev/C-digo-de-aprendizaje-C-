@@ -14,7 +14,11 @@ int main(void)
     suma = n + i;
 
     cout << "La suma de " << n << " y "<< i << " es: " << suma << endl;
+
     system("pause");
+
+    
+    
 
 
 
