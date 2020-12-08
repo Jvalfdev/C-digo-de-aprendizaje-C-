@@ -10,9 +10,6 @@
  * Last modified  : 2020-12-03 19:46:37
  */
 
-
-
-
 #include <iostream>
 #include <string>
 
@@ -20,12 +17,12 @@
 using namespace std;
 
 int main(){
-    int numentero;//Numero entero
-    float numfloat;//Numero con pocos decimales
-    double numdoubl;//Numero con muchos decimales
-    char caracter;//Texto y caracteres especiales
+    int numentero; //Numero entero
+    float numfloat; //Numero con pocos decimales
+    double numdoubl; //Numero con muchos decimales
+    char caracter; //Texto y caracteres especiales
     string texto;
-    bool respuesta = true;//Solo tiene dos valores, True o False.
+    bool respuesta = true; //Solo tiene dos valores, True o False.
     
 
     cout << "Buenas, este programa sirve para repasar los tipos de datos en C++.\nSi introduces los datos incorrectos el programa se cerrara automaticamente" << endl; 
@@ -51,9 +48,11 @@ int main(){
 
     
 
+    
     cout << "Introduce un texto. Se pueden incluir numeros y caracteres especiales ademas de letras"<< endl;
     cin.ignore();
     getline(cin, texto);
+
 
 
     cout << "El tipo de dato String se podria considerar una union de varios datos tipo 'char' en cadena, de ahi lo de 'string'" << endl;
